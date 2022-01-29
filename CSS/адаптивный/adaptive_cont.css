@@ -1,0 +1,41 @@
+@media screen and ( max-width:992px )
+{
+    .container{
+        min-width: 990px;
+    }
+}
+@media screen and ( max-width:768px )
+{
+    .container{
+        min-width: 760px;
+    }
+    .a{
+        font-size: 16px;
+        margin-left: 15px;
+    }
+    h1{
+        padding-top: 12px;
+    }
+    img{
+        max-width: 250px;
+    }
+}
+@media screen and ( max-width:576px)
+{
+    .container{
+        min-width: 560px;
+    }
+    .a{
+        margin-left: 2px;
+        font-size: 16px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    p{
+        font-size: 14px;
+    }
+    img{
+        max-width: 100px;
+    }
+}
